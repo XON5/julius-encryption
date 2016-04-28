@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BDE5AD21CD22F3E00157361 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE5AD11CD22F3E00157361 /* main.cpp */; };
+		8BDE5ADA1CD2318A00157361 /* Encrypter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE5AD91CD2318A00157361 /* Encrypter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BDE5ACC1CD22F3E00157361 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8BDE5ACE1CD22F3E00157361 /* julius-encrypter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "julius-encrypter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDE5AD11CD22F3E00157361 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8BDE5AD81CD230DA00157361 /* encrypterclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encrypterclass.h; sourceTree = "<group>"; };
+		8BDE5AD91CD2318A00157361 /* Encrypter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Encrypter.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BDE5ACB1CD22F3E00157361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BDE5AC51CD22F3E00157361 = {
+			isa = PBXGroup;
+			children = (
+				8BDE5AD01CD22F3E00157361 /* julius-encrypter */,
+				8BDE5ACF1CD22F3E00157361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BDE5ACF1CD22F3E00157361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE5ACE1CD22F3E00157361 /* julius-encrypter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BDE5AD01CD22F3E00157361 /* julius-encrypter */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE5AD11CD22F3E00157361 /* main.cpp */,
+				8BDE5AD81CD230DA00157361 /* encrypterclass.h */,
+				8BDE5AD91CD2318A00157361 /* Encrypter.cpp */,
+			);
+			path = "julius-encrypter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BDE5ACD1CD22F3E00157361 /* julius-encrypter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDE5AD51CD22F3E00157361 /* Build configuration list for PBXNativeTarget "julius-encrypter" */;
+			buildPhases = (
+				8BDE5ACA1CD22F3E00157361 /* Sources */,
+				8BDE5ACB1CD22F3E00157361 /* Frameworks */,
+				8BDE5ACC1CD22F3E00157361 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "julius-encrypter";
+			productName = "julius-encrypter";
+			productReference = 8BDE5ACE1CD22F3E00157361 /* julius-encrypter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BDE5AC61CD22F3E00157361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Xuanson On";
+				TargetAttributes = {
+					8BDE5ACD1CD22F3E00157361 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8BDE5AC91CD22F3E00157361 /* Build configuration list for PBXProject "julius-encrypter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BDE5AC51CD22F3E00157361;
+			productRefGroup = 8BDE5ACF1CD22F3E00157361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BDE5ACD1CD22F3E00157361 /* julius-encrypter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BDE5ACA1CD22F3E00157361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE5ADA1CD2318A00157361 /* Encrypter.cpp in Sources */,
+				8BDE5AD21CD22F3E00157361 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BDE5AD31CD22F3E00157361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8BDE5AD41CD22F3E00157361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8BDE5AD61CD22F3E00157361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BDE5AD71CD22F3E00157361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BDE5AC91CD22F3E00157361 /* Build configuration list for PBXProject "julius-encrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDE5AD31CD22F3E00157361 /* Debug */,
+				8BDE5AD41CD22F3E00157361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDE5AD51CD22F3E00157361 /* Build configuration list for PBXNativeTarget "julius-encrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDE5AD61CD22F3E00157361 /* Debug */,
+				8BDE5AD71CD22F3E00157361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BDE5AC61CD22F3E00157361 /* Project object */;
+}
